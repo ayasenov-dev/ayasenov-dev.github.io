@@ -18,6 +18,11 @@
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:12px; }
   .card h3 { margin:0 0 6px; font-size:1.05rem; }
   .card p { margin:0; color:var(--muted); }
+  .meta { color:var(--accent); font-size:.85rem; margin:0 0 6px; }
+  .skills { display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none; }
+  .skills li { background:var(--card); border:1px solid var(--line); border-radius:999px; padding:4px 12px; font-size:.88rem; color:var(--text); }
+  ul.plain { margin:0; padding-left:18px; color:var(--muted); }
+  ul.plain li { margin-bottom:6px; }
   a { color:var(--accent); }
   footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; display:flex; gap:18px; flex-wrap:wrap; }
 </style>
@@ -32,7 +37,66 @@
 
   <section>
     <h2>About</h2>
-    <p>I am an engineer with a background in telecommunications, computer networks and system administration, and more than 20 years of hands-on experience with hardware and software. I build practical Android apps with a focus on privacy, security and simplicity.</p>
+    <p>I am a telecommunications field engineer with a bachelor's degree in Informatics and more than 20 years of hands-on experience with computers, hardware and software. Over the years I have worked in computer networks and system administration, video surveillance, technical service and mobile app development. Today I maintain mobile base stations and radio relay links, and in my own time I build practical Android apps with a focus on privacy, security and simplicity.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="card">
+      <p class="meta">2023 – present</p>
+      <h3>Wireless Access Specialist (Field Engineer)</h3>
+      <p>Mobile network operator, Plovdiv. Maintenance and troubleshooting of mobile base stations and radio relay links, work with network management systems, power system O&amp;M and work at height.</p>
+    </div>
+    <div class="card">
+      <h3>Earlier experience</h3>
+      <ul class="plain">
+        <li>Computer networks and system administration</li>
+        <li>Video surveillance systems: installation and support</li>
+        <li>Service technician for computers and hardware</li>
+        <li>Mobile app development: Android apps published on Google Play since 2016</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Android development</li>
+      <li>Mobile base stations</li>
+      <li>Network management systems</li>
+      <li>Microwave radio links</li>
+      <li>MikroTik RouterOS</li>
+      <li>Computer networks</li>
+      <li>System administration</li>
+      <li>Synology NAS &amp; backup</li>
+      <li>Video surveillance</li>
+      <li>Hardware diagnostics &amp; repair</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education &amp; training</h2>
+    <div class="card">
+      <h3>Bachelor's degree in Informatics</h3>
+      <p>Plovdiv University "Paisii Hilendarski"</p>
+    </div>
+    <div class="card">
+      <h3>Certifications &amp; qualifications</h3>
+      <ul class="plain">
+        <li>MikroTik Certified Network Associate (MTCNA), 2023–2026</li>
+        <li>MikroTik Certified Wireless Engineer (MTCWE), 2023–2026</li>
+        <li>Electrical safety, qualification group IV: up to 1000 V and communication lines and networks (valid until 2028)</li>
+        <li>Work at height and rescue (since 2023, last refreshed 2026)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Courses</h3>
+      <ul class="plain">
+        <li>Telecom indoor &amp; outdoor power systems O&amp;M training (2026)</li>
+        <li>OSCP course, Offensive Security, completed 2020</li>
+        <li>CCNA course, Cisco, completed 2020</li>
+      </ul>
+    </div>
   </section>
 
   <section>
